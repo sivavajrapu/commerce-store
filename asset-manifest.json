@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/commerce-store/static/css/main.df48142a.css",
-    "main.js": "/commerce-store/static/js/main.0efb771f.js",
+    "main.css": "/commerce-store/static/css/main.23742e1a.css",
+    "main.js": "/commerce-store/static/js/main.1137edfe.js",
     "static/js/787.d2fe918e.chunk.js": "/commerce-store/static/js/787.d2fe918e.chunk.js",
+    "static/media/banner.jpg": "/commerce-store/static/media/banner.a06763fd0a19a4704bfd.jpg",
+    "static/media/body2.jpg": "/commerce-store/static/media/body2.3f3675b5fcaf24762286.jpg",
+    "static/media/body3.jpg": "/commerce-store/static/media/body3.d014295f38cf0bcaba9f.jpg",
+    "static/media/footer.jpg": "/commerce-store/static/media/footer.b9eae75b03ea389af66f.jpg",
+    "static/media/body1.jpg": "/commerce-store/static/media/body1.c57d24f3f7f3d58627f0.jpg",
     "static/media/cart.png": "/commerce-store/static/media/cart.54a43ddc98aa2b1296a4.png",
     "static/media/profile.png": "/commerce-store/static/media/profile.76f4310b96ce924dfcc0.png",
     "index.html": "/commerce-store/index.html",
-    "main.df48142a.css.map": "/commerce-store/static/css/main.df48142a.css.map",
-    "main.0efb771f.js.map": "/commerce-store/static/js/main.0efb771f.js.map",
+    "main.23742e1a.css.map": "/commerce-store/static/css/main.23742e1a.css.map",
+    "main.1137edfe.js.map": "/commerce-store/static/js/main.1137edfe.js.map",
     "787.d2fe918e.chunk.js.map": "/commerce-store/static/js/787.d2fe918e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df48142a.css",
-    "static/js/main.0efb771f.js"
+    "static/css/main.23742e1a.css",
+    "static/js/main.1137edfe.js"
   ]
 }
