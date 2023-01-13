@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../../../constants';
+import banner from '../../Assets/banner.jpg';
+import body1 from '../../Assets/body1.jpg';
+import body2 from '../../Assets/body2.jpg';
+import body3 from '../../Assets/body3.jpg';
+import footer from '../../Assets/footer.jpg';
 import { useNavigate } from 'react-router-dom'
 import NavBar from '../NavBar/NavBar';
 import { Carousel } from 'antd';
@@ -44,21 +49,20 @@ export default function Home() {
             <div>
                 <Carousel autoplay>
                     <div>
-                        <h3 style={contentStyle}>content slide 1</h3>
+                        <img src={banner} style={{width:"100%"}}/>
                     </div>
                     <div>
-                        <h3 style={contentStyle}>content slide 2</h3>
+                    <img src={banner} style={{width:"100%"}}/>
                     </div>
                     <div>
-                        <h3 style={contentStyle}>content slide 3</h3>
+                    <img src={banner} style={{width:"100%"}}/>
                     </div>
                     <div>
-                        <h3 style={contentStyle}>content slide 4</h3>
+                    <img src={banner} style={{width:"100%"}}/>
                     </div>
                 </Carousel>
             </div>
-            <p className='text-center text-2xl'>All Categories</p>
-            <div className='flex justify-center mt-4 bg-red-200 h-40'>
+            {/* <div className='flex justify-center mt-4 bg-red-200 h-40'>
                 {DATA.map((item, i) => {
                     return (
                         <div style={{width:"100px", height:"100px", marginTop:"20px",backgroundColor:"white", display:"flex", justifyContent:"center",marginRight:"20px", alignItems:"center", borderRadius:"5px"}}>
@@ -69,15 +73,18 @@ export default function Home() {
                         </div>
                     )
                 })}
+            </div> */}
+             <div className='flex justify-center items-center  bg-red-200 '>
+            <img src={body1} style={{width:"100%"}}/>
             </div>
-            <div className='flex justify-center items-center mt-2 bg-red-200 h-40'>
-               <p className='text-lg'>Space for Add</p>
+            <div className='flex justify-center items-center  bg-red-200 '>
+            <img src={body2} style={{width:"100%"}}/>
             </div>
-            <div className='flex justify-center items-center mt-2 bg-red-200 h-40'>
-               <p className='text-lg'>Space for Blogs and Vlogs</p>
+            <div className='flex justify-center items-center  bg-red-200'>
+            <img src={body3} style={{width:"100%"}}/>
             </div>
-            <div className='flex justify-center items-center mt-2 bg-red-200 h-40'>
-               <p className='text-lg'>Space for Footer</p>
+            <div className='flex justify-center items-center  bg-red-200 '>
+            <img src={footer} style={{width:"100%"}}/>
             </div>
         </div>
     )
