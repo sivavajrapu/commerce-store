@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../../../constants';
 import banner from '../../Assets/banner.jpg';
-import body1 from '../../Assets/body1.jpg';
+import body from '../../Assets/body1.jpg';
 import body2 from '../../Assets/body2.jpg';
 import body3 from '../../Assets/body3.jpg';
 import footer from '../../Assets/footer.jpg';
@@ -75,7 +75,7 @@ export default function Home() {
                 })}
             </div> */}
              <div className='flex justify-center items-center  bg-red-200 '>
-            <img src={body1} style={{width:"100%"}}/>
+            <img src={body} style={{width:"100%"}}/>
             </div>
             <div className='flex justify-center items-center  bg-red-200 '>
             <img src={body2} style={{width:"100%"}}/>
